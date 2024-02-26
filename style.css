@@ -1,0 +1,66 @@
+body{
+    background-color: rgba(4, 25, 53, 0.993);
+    max-width: 100%;
+    cursor: url('icons8-dedo-duro-48.png'), auto;
+    
+
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    font-family: harry;
+    font-size: 55px;
+    color: black;
+}
+.foto{
+ text-align: center;
+ max-width: 100%; 
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+p{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 17px;
+text-align: justify;
+}
+#main-paragraph {
+text-align: center;
+}
+
+
+li{
+font-size: 21px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom: 15px;
+position: relative;
+padding-left: 30px;
+
+}
+
+main{
+background-color: #88acd6e5;
+border-radius: 20px;
+box-shadow:8px 8px 5px rgba(6, 17, 172, 0.918);
+border: 1px solid #031358;
+padding: 20px;
+max-width: 900px; 
+width:90%;
+margin: 20px auto;
+
+}
+@font-face {
+    font-family:harry ;
+    src: url(fonte/HARRYP.woff.TTF) format('woff');
+}
+a {
+    color:#f3cc6be5 ;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFD700;
+}
